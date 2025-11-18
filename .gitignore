@@ -44,13 +44,12 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-
 # -----------------------------------------
 # Additional Rules (Custom for flutter_11)
 # -----------------------------------------
 
 # Flutter/Dart extra ignores
-.dart_tool/
+# (Removed .dart_tool/ because it’s already above)
 .packages
 build/
 linux/
