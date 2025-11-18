@@ -43,3 +43,23 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+
+# -----------------------------------------
+# Additional Rules (Custom for flutter_11)
+# -----------------------------------------
+
+# Flutter/Dart extra ignores
+.dart_tool/
+.packages
+build/
+linux/
+macos/
+windows/
+web/
+ios/
+android/
+*.lock
+
+# Environment file
+.env
